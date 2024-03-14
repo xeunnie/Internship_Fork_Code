@@ -27,7 +27,7 @@
     "editor.formatOnSave": true
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "json.schemas": [
     {
@@ -56,5 +56,6 @@
     "**/dist": true
   },
   "explorer.sortOrder": "filesFirst",
-  "explorer.sortOrderLexicographicOptions": "lower"
+  "explorer.sortOrderLexicographicOptions": "lower",
+  "liveServer.settings.port": 5501
 }
